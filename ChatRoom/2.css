@@ -79,7 +79,7 @@
     }
 }
 
-@media(max-width: 800px) and (min-width: 577px){
+@media(max-width: 800px) and (min-width: 576px){
     #send{
         margin-left: -20px;
         
