@@ -1,0 +1,88 @@
+#inp-box{
+    background-color: rgb(189, 191, 211);
+}
+
+#main-addition{
+    height: 100%;
+    width: 98vw;
+    margin: auto;
+    margin-top: 90px;
+    margin-bottom: 90px;
+    background-color: rgb(167, 167, 167);
+    border-radius: 20px;
+}
+
+
+#send{
+    border-radius: 50px;
+    border: 1px solid #aaa;
+    background-color: white;
+}
+
+#inpu{
+    border-radius: 50px;  
+    word-break: break-word;
+}
+
+#added1{
+    border-radius: 20px;
+    color: white;
+    font-weight: 700;
+    background-color: rgb(19, 11, 11);
+    word-break: break-word;
+    max-width: 80%;
+}
+
+#added2{
+    border-radius: 20px;
+    color: white;
+    font-weight: 700;
+    background-color: rgb(28, 14, 56);
+    word-break: break-word;
+    max-width: 80%;
+}
+
+#added3{
+    border-radius: 20px;
+    color: black;
+    font-size: 13px;
+    background-color: blanchedalmond;
+    font-weight: 600;
+    margin: 0px;
+    word-break: break-word;
+    max-width: 80%;
+}
+
+
+#load-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* visibility: hidden; */
+}
+
+/* #no-visible{
+    visibility: hidden;
+} */
+
+@media(max-width: 576px){
+    #send{
+        margin-top: 8px;
+        width: 100%;
+        height: 35px;
+    }
+
+    #main-addition{
+        margin-bottom: 130px;
+        margin-top: 70px;
+    }
+}
+
+@media(max-width: 800px) and (min-width: 577px){
+    #send{
+        margin-left: -20px;
+        
+    }
+    
+}
