@@ -54,7 +54,7 @@ function chat_send_msg(){
     var send_data1 = JSON.stringify(send_data);
     $.ajax({
         method: 'POST',
-        url: 'http://a27e6f8ea8e6.ngrok.io/webhooks/rest/webhook',
+        url: 'http://cca3b7ac35ac.ngrok.io/webhooks/rest/webhook',
         contentType: 'application/json',
         dataType: 'json',
         data: send_data1,
